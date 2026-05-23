@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Customer Service & Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Mono:wght@300;400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <span class="nav__initials">AH</span>
+      <span class="nav__name">Abubakar Hannatu</span>
+    </div>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact" class="nav__cta">Let's Talk</a></li>
+    </ul>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#testimonials" class="mobile-link">Testimonials</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__glow"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__tag reveal">Available for hire</p>
+      <h1 class="hero__title reveal">
+        <span class="hero__line">Customer Service.</span>
+        <span class="hero__line">Virtual Assistant.</span>
+        <span class="hero__line gold">Frontend Developer.</span>
+      </h1>
+      <p class="hero__sub reveal">I bridge the gap between seamless user experience and outstanding client support — one pixel and one resolved ticket at a time.</p>
+      <div class="hero__actions reveal">
+        <a href="#projects" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--ghost">Hire Me</a>
+      </div>
+      <div class="hero__stats reveal">
+        <div class="stat"><span class="stat__num" data-target="3">0</span><span class="stat__plus">+</span><p>Years Experience</p></div>
+        <div class="stat__divider"></div>
+        <div class="stat"><span class="stat__num" data-target="10">0</span><span class="stat__plus">+</span><p>Clients Served</p></div>
+        <div class="stat__divider"></div>
+        <div class="stat"><span class="stat__num" data-target="98">0</span><span class="stat__plus">%</span><p>Satisfaction Rate</p></div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="section__label">Who I Am</p>
+        <h2 class="section__title">About Me</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__image-wrap reveal">
+          <div class="about__image-frame">
+            <div class="about__avatar"><img src="IMG-20251112-WA0259~2.jpg" alt="Abubakar Hannatu" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center top;"</div>
+            <div class="about__badge">
+              <span class="badge__dot"></span>
+              Open to Work
+            </div>
+          </div>
+          <div class="about__shape"></div>
+        </div>
+        <div class="about__text reveal">
+          <h3 class="about__heading">Hi, I'm <span class="gold">Abubakar Hannatu</span></h3>
+          <p>A dedicated professional with a triple skill set — Customer Service specialist, Virtual Assistant, and Frontend Developer. I bring calm to chaos, structure to complexity, and beauty to digital experiences.</p>
+          <p>Whether I'm resolving a client's most urgent issue, managing executive calendars, or bringing a UI design to life in code — I show up with precision, empathy, and a keen eye for detail.</p>
+          <p>Based in Abuja, Nigeria, I work with clients globally, delivering results across time zones with reliability and professionalism.</p>
+          <div class="about__pills">
+            <span class="pill">Problem Solver</span>
+            <span class="pill">Detail-Oriented</span>
+            <span class="pill">Fast Learner</span>
+            <span class="pill">Remote-Ready</span>
+            <span class="pill">Empathetic</span>
+          </div>
+          <a href="Hannatu-Abubakar-CV.pdf" class="btn btn--primary" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="skills">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="section__label">What I Bring</p>
+        <h2 class="section__title">Skills & Expertise</h2>
+      </div>
+      <div class="skills__grid">
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Customer Service</h3>
+          <p>Turning difficult situations into loyal relationships through empathy, active listening, and decisive action.</p>
+          <ul class="skill-list">
+            <li>Live Chat & Email Support</li>
+            <li>Zendesk / Freshdesk</li>
+            <li>Conflict Resolution</li>
+            <li>CRM Management</li>
+            <li>Ticket Escalation</li>
+            <li>SLA Adherence</li>
+          </ul>
+        </div>
+        <div class="skill-card skill-card--featured reveal">
+          <div class="skill-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Virtual Assistant</h3>
+          <p>Keeping operations smooth, schedules clean, and executives focused on what matters most.</p>
+          <ul class="skill-list">
+            <li>Calendar Management</li>
+            <li>Email Inbox Management</li>
+            <li>Data Entry & Research</li>
+            <li>Trello / Asana / Notion</li>
+            <li>Travel Arrangements</li>
+            <li>Report Preparation</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Frontend Developer</h3>
+          <p>Crafting responsive, pixel-perfect web interfaces that users love to interact with.</p>
+          <ul class="skill-list">
+            <li>HTML5 / CSS3 / JavaScript</li>
+            <li>React.js</li>
+            <li>Responsive Design</li>
+            <li>Figma to Code</li>
+            <li>Git & GitHub</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tools reveal">
+        <p class="tools__label">Tools I use daily</p>
+        <div class="tools__list">
+          <span class="tool-tag">Zendesk</span>
+          <span class="tool-tag">Slack</span>
+          <span class="tool-tag">Notion</span>
+          <span class="tool-tag">Trello</span>
+          <span class="tool-tag">Google Workspace</span>
+          <span class="tool-tag">Figma</span>
+          <span class="tool-tag">VS Code</span>
+          <span class="tool-tag">GitHub</span>
+          <span class="tool-tag">Zoom</span>
+          <span class="tool-tag">Asana</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section class="section" id="experience">
+  <div class="container">
+    <div class="section__header reveal">
+      <p class="section__label">Career Path</p>
+      <h2 class="section__title">Work Experience</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <div class="timeline__header">
+            <div>
+              <h3>Customer Representative</h3>
+              <p class="timeline__company">Global Wissen Consult · Remote</p>
+            </div>
+            <span class="timeline__date">2025 – Present</span>
+          </div>
+          <p>Handled live chats and customer response emails. Also handled inbound and outbound calls with daily updates on CRM tools.</p>
+          <div class="timeline__tags">
+            <span>Teamwork</span><span>Hubstaff</span><span>Trello</span><span>Slack</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <div class="timeline__header">
+            <div>
+              <h3>Social Media Campaign & Influencer Researcher</h3>
+              <p class="timeline__company">Global Wissen Consult · Remote</p>
+            </div>
+            <span class="timeline__date">2025 – Present</span>
+          </div>
+          <p>Planned and executed multi-platform campaigns, increasing engagement by 20%. Researched and coordinated influencer partnerships, improving campaign reach.</p>
+          <div class="timeline__tags">
+            <span>Slack</span><span>Asana</span><span>G Suite</span><span>Social Media Platforms</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <div class="timeline__header">
+            <div>
+              <h3>Content, Social Media & Graphics Assistant</h3>
+              <p class="timeline__company">Allure Collections · Jos</p>
+            </div>
+            <span class="timeline__date">2024 – 2025</span>
+          </div>
+          <p>Assisted in creating and scheduling social media content across multiple platforms. Collaborated with the design team to develop graphics for marketing campaigns.</p>
+          <div class="timeline__tags">
+            <span>Canva</span><span>Figma</span><span>CRM</span><span>Social Media Platforms</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <div class="timeline__header">
+            <div>
+              <h3>Frontend Developer & UI/UX Designer</h3>
+              <p class="timeline__company">Freelance · Remote</p>
+            </div>
+            <span class="timeline__date">2023 – Present</span>
+          </div>
+          <p>Designed and developed responsive web interfaces for clients across various industries, delivering pixel-perfect UI from Figma designs to production-ready code.</p>
+          <div class="timeline__tags">
+            <span>Figma</span><span>VS Code</span><span>GitHub</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <div class="timeline__header">
+            <div>
+              <h3>Media Team Editor & Social Media Assistant</h3>
+              <p class="timeline__company">Impact Touch </p>
+            </div>
+            <span class="timeline__date">2023 – 2024</span>
+          </div>
+          <p>Edited videos, photos, and written content for quality and consistency. Increased social media engagement by 25%.</p>
+          <div class="timeline__tags">
+            <span>Adobe Photoshop</span><span>Canva</span><span>Social Media Platforms</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline__item reveal">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <div class="timeline__header">
+            <div>
+              <h3>Virtual Assistant & Work Support</h3>
+              <p class="timeline__company">Freelance · Remote</p>
+            </div>
+            <span class="timeline__date">2022 – 2023</span>
+          </div>
+          <p>Provided administrative and operational support to remote clients, managing schedules, correspondence, and task coordination across multiple time zones.</p>
+          <div class="timeline__tags">
+            <span>HubSpot</span><span>Zoho</span><span>Google Workspace</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <section class="section section--dark" id="projects">
+  <div class="container">
+    <div class="section__header reveal">
+      <p class="section__label">My Work</p>
+      <h2 class="section__title">Featured Projects</h2>
+    </div>
+    <div class="projects__grid">
+
+      <div class="project-card reveal">
+        <div class="project-card__header">
+          <span class="project-card__type">Frontend</span>
+          <div class="project-card__links">
+            <a href="#" aria-label="View live">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+            <a href="#" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-card__body">
+          <h3>E-Commerce Landing Page</h3>
+          <p>A responsive, conversion-optimized landing page built with HTML, CSS, and vanilla JS. Features smooth animations, mobile-first layout, and a 95+ Lighthouse score.</p>
+        </div>
+        <div class="project-card__footer">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card__header">
+          <span class="project-card__type">VA System</span>
+          <div class="project-card__links">
+            <a href="#" aria-label="View live">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-card__body">
+          <h3>Client Onboarding System</h3>
+          <p>Designed and implemented a full onboarding workflow in Notion for a 5-person team, cutting onboarding time from 2 weeks to 3 days through automation and documentation.</p>
+        </div>
+        <div class="project-card__footer">
+          <span>Notion</span><span>Zapier</span><span>Automation</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card__header">
+          <span class="project-card__type">Social Media</span>
+          <div class="project-card__links">
+            <a href="#" aria-label="View portfolio">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-card__body">
+          <h3>Social Media & Campaign Portfolio</h3>
+          <p>Multi-platform campaigns, influencer research, and content strategies executed for real clients — including a 20% engagement increase and 25% growth in social media reach.</p>
+        </div>
+        <div class="project-card__footer">
+          <span>Canva</span><span>Adobe Photoshop</span><span>Asana</span><span>Meta Ads</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="section__label">Kind Words</p>
+        <h2 class="section__title">Testimonials</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__quote">"</div>
+          <p class="testimonial-card__text">Working with Hannatu was an absolute pleasure. She resolved our customer support backlog in record time and built us a beautiful help center page. Truly multi-talented!</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MD</div>
+            <div>
+              <p class="testimonial-card__name">Michael Davidson</p>
+              <p class="testimonial-card__role">HR, Gloabl Wissen Consult</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__quote">"</div>
+          <p class="testimonial-card__text">Exceptional VA. My inbox went from chaotic to fully organized in 48 hours. Her systems thinking is remarkable — every process they touch becomes more efficient.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">NS</div>
+            <div>
+              <p class="testimonial-card__name">Nina Sikari</p>
+              <p class="testimonial-card__role">Founder, Sikari Enterprises</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__quote">"</div>
+          <p class="testimonial-card__text">The landing page she built exceeded our expectations. Clean code, fast load times, and a design that actually converts. We saw a 40% increase in sign-ups after launch.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">ED</div>
+            <div>
+              <p class="testimonial-card__name">Emmanuel David</p>
+              <p class="testimonial-card__role">Product Manager, EICT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="contact">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="section__label">Get In Touch</p>
+        <h2 class="section__title">Let's Work Together</h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <h3>Ready to bring your <span class="gold">vision to life</span>?</h3>
+          <p>Whether you need a reliable customer service pro, a detail-obsessed virtual assistant, or a frontend developer who cares about the whole user experience — I'm your person.</p>
+          <div class="contact__details">
+            <div class="contact__item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:your@email.com">abuhannatu.va@gmail.com</a>
+            </div>
+            <div class="contact__item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Abuja, Nigeria (Open to Remote)</span>
+            </div>
+            <div class="contact__item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              <a href="https://www.linkedin.com/in/hannatu-abubakar-5342922ba/" target="_blank">linkedin.com/in/Abubakar Hannatu</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Jane" required />
+            </div>
+            <div class="form__group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form__group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option>Customer Service Support</option>
+              <option>Virtual Assistant</option>
+              <option>Frontend Development</option>
+              <option>All of the above</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or what you need help with..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+            <span>Send Message</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <div class="form__success" id="formSuccess">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Message sent! I'll get back to you within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="nav__initials">AH</span>
+          <p>Customer Service · Virtual Assistant · Frontend Developer</p>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/in/hannatu-abubakar-5342922ba/" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="Twitter">X</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; <span id="year"></span> Abubakar Hannatu. All rights reserved.</p>
+        <p>Built with care — HTML, CSS & JS</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
